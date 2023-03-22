@@ -14,3 +14,4 @@ int main() {
     for (int i = 0; i < 5; i++) {
         cout << "data ke-" << (i + 1) << a[i] << endl;
     }
+}
