@@ -48,3 +48,8 @@ int main() {
          cin >> tinggi;
          cout << "\nLuas Segitiga = " << luasSegitiga(alas, tinggi);
          break;
+     case 3:
+         cout << "Masukkan Jari-jari = ";
+         cin >> jejari;
+         cout << "\nLuas Lingkaran = " << luasLingkaran(jejari);
+         break;
