@@ -55,5 +55,8 @@ int main() {
          break;
      case 4:
          break;
+     default:
+         cout << "Pilihan Salah !";
+         break;
     
      }
