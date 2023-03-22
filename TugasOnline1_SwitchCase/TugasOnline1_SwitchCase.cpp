@@ -32,3 +32,12 @@ int main() {
 
      cout << "\nPilihan (1/2/3/4) : " << endl;
      cin >> pilihan;
+
+     switch (pilihan) {
+     case 1:
+         cout << "Masukkan Panjang= ";
+         cin >> panjang;
+         cout << "Masukkan Lebar = ";
+         cin >> lebar;
+         cout << "\nLuas Persegi Panjang = " << luasPersegiPanjang(panjang, lebar);
+         break;
