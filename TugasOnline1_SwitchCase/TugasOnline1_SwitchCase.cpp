@@ -60,3 +60,5 @@ int main() {
          break;
     
      }
+
+    } while (pilihan != 4);
