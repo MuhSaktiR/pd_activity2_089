@@ -41,3 +41,10 @@ int main() {
          cin >> lebar;
          cout << "\nLuas Persegi Panjang = " << luasPersegiPanjang(panjang, lebar);
          break;
+     case 2:
+         cout << "Masukkan Alas = ";
+         cin >> alas;
+         cout << "Masukkan Tinggi = ";
+         cin >> tinggi;
+         cout << "\nLuas Segitiga = " << luasSegitiga(alas, tinggi);
+         break;
