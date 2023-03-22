@@ -53,3 +53,7 @@ int main() {
          cin >> jejari;
          cout << "\nLuas Lingkaran = " << luasLingkaran(jejari);
          break;
+     case 4:
+         break;
+    
+     }
